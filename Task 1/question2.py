@@ -42,3 +42,4 @@ print("\nTotal_marks : ",Total_marks)
 Total = 500
 Percentage = (Total_marks / Total) * 100
 print("Percentage = ",Percentage)
+
