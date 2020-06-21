@@ -1,4 +1,4 @@
-## Program for display full name, college name, address, total marks and percentage.
+>Program for display full name, college name, address, total marks and percentage.
 
 ### Declaration of variables
 First_name = "Sneha "
