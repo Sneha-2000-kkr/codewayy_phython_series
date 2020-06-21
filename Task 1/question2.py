@@ -26,3 +26,4 @@ Percentage = (Total_marks / Total) * 100    // computing percentage
 print("Percentage = ",Percentage)
 
 
+
