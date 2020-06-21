@@ -6,12 +6,12 @@ Last_name = "Singh "
 College_name = "Banasthali Vidyapeeth "
 Address = "Tonk, Rajasthan "
 
-###Full name using Concatenation :
+### Full name using Concatenation :
 
 Full_name = First_name + Last_name
 print(Full_name)
 
-###college name and address :
+### college name and address :
 
 College_name_and_Address = (College_name + Address)
 print("Computer Technology from ",College_name + Address)
