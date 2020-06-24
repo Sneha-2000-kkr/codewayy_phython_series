@@ -1,41 +1,41 @@
 # working with Dictionary
 
 #declaring Dictionary
-student={'name':'Sneha','age':20,'courses':['Btech cs','French']}
+Student={'name':'Sneha','age':20,'courses':['Btech cs','French']}
 
 #accessing values 
-print(student.values())
-print(student.items())
+print(Student.values())
+print(Student.items())
 
 #adding key and value in the Dictionary
-student['phone no']='3455'
+Student['phone no']='3455'
 #using get function in Dictionary to fetch the value of desired or print not found
-print(student.get('phone no','not found'))
+print(Student.get('phone no','not found'))
 
 #removing value from the Dictionary
-print(student.pop('age'))
+print(Student.pop('age'))
 
 #updating value for the key in Dictionary
-student.update({'name':'rekha'})
-print(student)
+Student.update({'name':'rekha'})
+print(Student)
 
 #to display all the keys in the Dictionary
-print(student.keys())
+print(Student.keys())
 
 #to display all the items in the Dictionary
-print(student.items())
+print(Student.items())
 
 #to display all the values in the Dictionary
-print(student.values())
+print(Student.values())
 
 #to calculate length of the Dictionary
-print(student.__len__())
+print(Student.__len__())
     #or
-print(len(student))
+print(len(Student))
 
 #for displaying keys and values via loop
 
-for key,value in student.items():
+for key,value in Student.items():
     print(key,value)
     
 # Creating a NestedDictionary 
