@@ -1,4 +1,5 @@
 **1. Why is list used?**
+
 Lists need not be homogeneous always which makes it a most powerful tool in Python. 
 A single list may contain DataTypes like Integers, Strings, as well as Objects.
 Lists are mutable, and hence, they can be altered even after their creation.
@@ -13,5 +14,6 @@ Each element in the list has its definite place in the list, which allows duplic
 - sets facilitates functions such as union, intersection, difference whereas list do not have these.
 
 **3.Application of dictionaries with a real world example.**
+
 Storing data in  dictionaries of dictionaries, which is kind of like a table, useful for storing large amount of data like in banks, its access is easy and less chances
 of loosing data corresponding to an individual,easy to update and remove data.
