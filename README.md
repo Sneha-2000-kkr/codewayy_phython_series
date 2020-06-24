@@ -35,3 +35,7 @@ following use:
   - Function to print all the details of a student, so here this function
 should call all other functions to print the name, marks, grades,
 percentage.
+2. Write a program in Python to calculate the length of two strings by
+concatenating them.
+3. Write a program in Python to print all the numbers till 10 except 3, 7 using
+for and while loop.
