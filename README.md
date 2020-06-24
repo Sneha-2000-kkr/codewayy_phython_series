@@ -12,7 +12,7 @@ Hello everyone up there:smile:!!!
   -  Initialize marks of 5 different subjects with good variable names.
   -  Calculate and display the total marks, percentage.
   
-  ### Task 2:
+### Task 2:
   1. Write a program in Python which should contain at least 7 different methods
       of list, tuples, sets, dictionaries. (Program should be written in 4 different .py
       for each of them).
@@ -21,7 +21,7 @@ Hello everyone up there:smile:!!!
       - How do lists and sets differ?
       - Application of dictionaries with a real world example.
       
- ### Task 3:
+### Task 3:
  1. Write a program in python which should include 5 different functions for the
 following use:
    - Function should return your full name
