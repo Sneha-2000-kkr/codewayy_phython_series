@@ -1,28 +1,28 @@
 #Working with sets
 
 #declaring sets
-People = {"Jay", "Idrish", "Archi"} 
-print(People)
+PeopleInfo = {"Jay", "Idrish", "Archi"} 
+print(PeopleInfo)
 #this is to notice that sets does not display the values inside it in neither
 #given order nor in any sorted manner, hence indexing is not possible for sets
 
 # for adding values in the set 
-People.add("Daxit") 
-print(People)
+PeopleInfo.add("Daxit") 
+print(PeopleInfo)
 
 
 #performing union in the sets
-People = {"Jay", "Idrish", "Archil"} 
-Vampires = {"Karan", "Arjun"} 
-Dracula = {"Deepanshu", "Raju"} 
+PeopleInfo = {"Jay", "Idrish", "Archil"} 
+VampiresInfo = {"Karan", "Arjun"} 
+DraculaInfo = {"Deepanshu", "Raju"} 
 
 #using union() function
-Population = People.union(Vampires)
-print(Population) 
+PopulationInfo = PeopleInfo.union(VampiresInfo)
+print(PopulationInfo) 
 
 #using '|' operator
-Population = People|Dracula 
-print(Population) 
+PopulationInfo = PeopleInfo|DraculaInfo 
+print(PopulationInfo) 
 
 #performing intersection in sets
 Set1 = set() 
