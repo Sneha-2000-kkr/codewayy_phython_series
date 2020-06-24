@@ -25,24 +25,24 @@ print("\nTuples after Concatenaton: ")
 print(Tuple3) 
 
 #for finding max value in the tupple
-print(max(tuple))
+print(max(Tuple))
 
 #for finding min value in the tupple
-print(min(tuple))
+print(min(Tuple))
 
 #for finding som of values in the tupple
-print(sum(tuple))
+print(sum(Tuple))
 
 #for finding length of tupple
-print(len(tuple))
+print(len(Tuple))
 
 #for converting a list into tuple
-list=['3','4','5']
-print(tuple(list))
+List=['3','4','5']
+print(tuple(List))
 
 #tuples are inmutable, hence values at any index cannot be updated
-tuple[2]='9'
-print(tuple)
+Tuple[2]='9'
+print(Tuple)
 #this will display error
 
 
