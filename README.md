@@ -11,3 +11,12 @@ Hello everyone up there:smile:!!!
   -  College name with address (Use string concatenation)
   -  Initialize marks of 5 different subjects with good variable names.
   -  Calculate and display the total marks, percentage.
+  
+  ### Task 2:
+  1. Write a program in Python which should contain at least 7 different methods
+      of list, tuples, sets, dictionaries. (Program should be written in 4 different .py
+      for each of them).
+  2. Create a txt file and write the answers to the following questions in it.
+      a. Why is list used?
+      b. How do lists and sets differ?
+      c. Application of dictionaries with a real world example.
