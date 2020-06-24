@@ -1,57 +1,57 @@
 # working with Dictionary
 
 #declaring Dictionary
-Student={'name':'Sneha','age':20,'courses':['Btech cs','French']}
+StudentInfo={'name':'Sneha','age':20,'courses':['Btech cs','French']}
 
 #accessing values 
-print(Student.values())
-print(Student.items())
+print(StudentInfo.values())
+print(StudentInfo.items())
 
 #adding key and value in the Dictionary
-Student['phone no']='3455'
+StudentInfo['phone no']='3455'
 #using get function in Dictionary to fetch the value of desired or print not found
-print(Student.get('phone no','not found'))
+print(StudentInfo.get('phone no','not found'))
 
 #removing value from the Dictionary
-print(Student.pop('age'))
+print(StudentInfo.pop('age'))
 
 #updating value for the key in Dictionary
-Student.update({'name':'rekha'})
-print(Student)
+StudentInfo.update({'name':'rekha'})
+print(StudentInfo)
 
 #to display all the keys in the Dictionary
-print(Student.keys())
+print(StudentInfo.keys())
 
 #to display all the items in the Dictionary
-print(Student.items())
+print(StudentInfo.items())
 
 #to display all the values in the Dictionary
-print(Student.values())
+print(StudentInfo.values())
 
 #to calculate length of the Dictionary
-print(Student.__len__())
+print(StudentInfo.__len__())
     #or
-print(len(Student))
+print(len(StudentInfo))
 
 #for displaying keys and values via loop
 
-for key,value in Student.items():
+for key,value in StudentInfo.items():
     print(key,value)
     
 # Creating a NestedDictionary 
-Dict = {'Dict1': {1: 'mago'}, 
+DictInUse = {'Dict1': {1: 'mago'}, 
         'Dict2': {'Name': 'Sneha'}} 
   
 # Accessing element using key 
-print(Dict['Dict1']) 
-print(Dict['Dict1'][1]) 
-print(Dict['Dict2']['Name']) 
+print(DictInUse['Dict1']) 
+print(DictInUse['Dict1'][1]) 
+print(DictInUse['Dict2']['Name']) 
 
 #removing value from a NestedDictionary
-del Dict['Dict1']['Dict2'] 
+del DictInUse['Dict1']['Dict2'] 
 
 # Deleting entire Dictionary 
-Dict.clear() 
-print(Dict) 
+DictInUse.clear() 
+print(DictInUse) 
 #displays empty curly braces
 
