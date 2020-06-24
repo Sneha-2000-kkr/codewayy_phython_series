@@ -17,6 +17,6 @@ Hello everyone up there:smile:!!!
       of list, tuples, sets, dictionaries. (Program should be written in 4 different .py
       for each of them).
   2. Create a txt file and write the answers to the following questions in it.
-      a. Why is list used?
-      b. How do lists and sets differ?
-      c. Application of dictionaries with a real world example.
+      - Why is list used?
+      - How do lists and sets differ?
+      - Application of dictionaries with a real world example.
