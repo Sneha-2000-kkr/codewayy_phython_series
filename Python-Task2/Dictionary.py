@@ -54,3 +54,4 @@ del Dict['Dict1']['Dict2']
 Dict.clear() 
 print(Dict) 
 #displays empty curly braces
+
