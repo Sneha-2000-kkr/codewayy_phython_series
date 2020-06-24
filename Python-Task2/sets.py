@@ -1,32 +1,32 @@
 #Working with sets
 
 #declaring sets
-people = {"Jay", "Idrish", "Archi"} 
-print(people)
+People = {"Jay", "Idrish", "Archi"} 
+print(People)
 #this is to notice that sets does not display the values inside it in neither
 #given order nor in any sorted manner, hence indexing is not possible for sets
 
 # for adding values in the set 
-people.add("Daxit") 
-print(people)
+People.add("Daxit") 
+print(People)
 
 
 #performing union in the sets
-people = {"Jay", "Idrish", "Archil"} 
-vampires = {"Karan", "Arjun"} 
-dracula = {"Deepanshu", "Raju"} 
+People = {"Jay", "Idrish", "Archil"} 
+Vampires = {"Karan", "Arjun"} 
+Dracula = {"Deepanshu", "Raju"} 
 
 #using union() function
-population = people.union(vampires)
-print(population) 
+Population = People.union(Vampires)
+print(Population) 
 
 #using '|' operator
-population = people|dracula 
-print(population) 
+Population = People|Dracula 
+print(Population) 
 
 #performing intersection in sets
-set1 = set() 
-set2 = set() 
+Set1 = set() 
+Set2 = set() 
 
 #adding the values via loop in set1
 for i in range(5): 
@@ -34,52 +34,52 @@ for i in range(5):
     
 #adding the values via loop in set2 
 for i in range(3,9): 
-    set2.add(i) 
+    Set2.add(i) 
    
 # using intersection() function 
-set3 = set1.intersection(set2)    
-print(set3)
+Set3 = Set1.intersection(Set2)    
+print(Set3)
 
 # Intersection using "&" operator 
-set3 = set1 & set2 
-print(set3)
+Set3 = Set1 & Set2 
+print(Set3)
 
 #performing difference among sets
 # using difference() function 
-set3 = set1.difference(set2) 
-print(set3)
+Set3 = Set1.difference(Set2) 
+print(Set3)
 
 # using '-' operator 
-set3 = set1 - set2 
-print(set3)
+Set3 = Set1 - set2 
+print(Set3)
 
 #for comparison among the sets
 
 #if set1 is equivalent to set2
-print(set1==set2)
+print(Set1==Set2)
 #displays false
 
 #if set1 is superset of set2
-print(set1>=set2)
+print(Set1>=Set2)
 #displays false 
 
 #if set1 is not equivalent to set2
-print(s1 != s2)
+print(Set1 != Set2)
 #displays true
 
 # if set1 is subset of set2
-print(s1 <= s2)
+print(Set1 <= Set2)
 #displays false  
 
 
 #for removing all values in the set
-set1.clear()
-print(set1)
+Set1.clear()
+print(Set1)
 #displays set1 is not defined
 
 #for checking presence of a key value in the list
-set={22,98,23,98,45,21,43}
-print(22 in set)
+Set={22,98,23,98,45,21,43}
+print(22 in Set)
 #displays true
 
 
