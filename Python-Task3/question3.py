@@ -4,13 +4,11 @@
 
 #defining function for printing the numbers
 from _ast import Continue, Break
-def printingNumbers(numBer):
+for numBer in range(1,11):
     if(numBer==3 or numBer==7):
-        Break
+        continue
     else:
         print(numBer)
-for i in range(1,11):
-    printingNumbers(i)
     
 #using while loop
 
