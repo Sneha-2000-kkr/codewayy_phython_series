@@ -13,7 +13,7 @@ string1=str(input("Enter first String\n"))
 string2=str(input("Enter second String\n"))
 
 #printing the length of String1
-print("length of first string by concatenating them ",lengthOfString1(string1,String2))
+print("length of first string by concatenating them ",lengthOfString1(string1,string2))
 
 #printing the length of String2
-print("length of second string by concatenating them ",LengthofString2(String1,String2))
+print("length of second string by concatenating them ",lengthOfString2(string1,string2))
