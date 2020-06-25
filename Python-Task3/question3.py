@@ -4,22 +4,22 @@
 
 #defining function for printing the numbers
 from _ast import Continue, Break
-def PrintingNumbers(x):
-    if(x==3 or x==7):
+def printingNumbers(numBer):
+    if(numBer==3 or numBer==7):
         Break
     else:
-        print(x)
+        print(numBer)
 for i in range(1,11):
-    PrintingNumbers(i)
+    printingNumbers(i)
     
 #using while loop
 
 #initializing value of x and running while loop with conditional statement that value of x must not exceed 10.
     
-x=1
-while(x!=11):
-    if(x==3 or x==7):
-        x=x+1
+numBer=1
+while(numBer!=11):
+    if(numBer==3 or numBer==7):
+        numBer=numBer+1
     else:
-        print(x)
-        x=x+1
+        print(numBer)
+        numBer=numBer+1
