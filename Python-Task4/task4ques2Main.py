@@ -12,3 +12,16 @@ print("Minimum element from list is ",importedPythonFile.minimumFromListFunc(lis
 print("Sum of all elements is ",importedPythonFile.sumOfAllElementsFromListFunc(listFromUser))
 
 
+import importedPythonFile
+stringGiven=str(input("Enter the string"))
+print("length of string ",importedPythonFile.lengthOfString(stringGiven))
+print("Middle character of the string is ",importedPythonFile.middleCharacterOfString(stringGiven))
+print("no of vowels in the string ",importedPythonFile.vowelsInString(stringGiven))
+print("no of words in the string ",importedPythonFile.wordsInString(stringGiven))
+
+
+
+
+
+
+
