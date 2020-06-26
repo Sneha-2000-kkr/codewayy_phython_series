@@ -20,7 +20,12 @@ print("no of vowels in the string ",importedPythonFile.vowelsInString(stringGive
 print("no of words in the string ",importedPythonFile.wordsInString(stringGiven))
 
 
-
+import importedPythonFile
+numBer1=str(input("enter your first condition"))
+numBer2=str(input("enter your second condition"))
+print("applying and operator",importedPythonFile.logicalOperatorAndFunc(numBer1,numBer2))
+print("applying or operator",importedPythonFile.logicalOperatorOrFunc(numBer1,numBer2))
+print("applying not operator",importedPythonFile.logicalOperatorNotFunc(numBer1))
 
 
 
