@@ -1,6 +1,8 @@
 # importing importedPythonFile python file , where all the functions are defined and used here.
 
-import importedPythonFile
+import listFunctions
+import logicalOperatorFunctions
+import stringFunctions
 
 # initilazing empty list
 listFromUser=[]
@@ -18,47 +20,46 @@ for i in range(0,sizeOfList):
 numBer=int(input("enter the number whose square is to be computed"))
 
 #printing square of the number as taken from user
-print("Square of ", numBer ," is ", importedPythonFile.sqaureOfNumberFunc(numBer))
+print("Square of ", numBer ," is ", listFunctions.sqaureOfNumberFunc(numBer))
 
 #printing maximum value from list 
-print("Maximum element from list is ",importedPythonFile.maximumFromListFunc(listFromUser))
+print("Maximum element from list is ",listFunctions.maximumFromListFunc(listFromUser))
 
 #printing minimum value from the list
-print("Minimum element from list is ",importedPythonFile.minimumFromListFunc(listFromUser))
+print("Minimum element from list is ",listFunctions.minimumFromListFunc(listFromUser))
 
 #printing sum of all elements value from the list
-print("Sum of all elements is ",importedPythonFile.sumOfAllElementsFromListFunc(listFromUser))
+print("Sum of all elements is ",listFunctions.sumOfAllElementsFromListFunc(listFromUser))
 
 
-import importedPythonFile
+
 
 # taking  a string as input from user
 stringGiven=str(input("Enter the string"))
 
 #printing length of the string
-print("length of string ",importedPythonFile.lengthOfString(stringGiven))
+print("length of string ",StringFuntions.lengthOfString(stringGiven))
 
 #printing middle character of the string
-print("Middle character of the string is ",importedPythonFile.middleCharacterOfString(stringGiven))
+print("Middle character of the string is ",stringFunctions.middleCharacterOfString(stringGiven))
 
 #printing no of vowels in the string
-print("no of vowels in the string ",importedPythonFile.vowelsInString(stringGiven))
+print("no of vowels in the string ",stringFunctions.vowelsInString(stringGiven))
 
 #printing no of words in the string
-print("no of words in the string ",importedPythonFile.wordsInString(stringGiven))
+print("no of words in the string ",stringFunctions.wordsInString(stringGiven))
 
 
-import importedPythonFile
 
 #taking two conditional input from the user
 numBer1=str(input("enter your first condition"))
 numBer2=str(input("enter your second condition"))
 
 #printing results for and operator based on two conditions given by the user
-print("applying and operator",importedPythonFile.logicalOperatorAndFunc(numBer1,numBer2))
+print("applying and operator",logicalOperatorFunctions.logicalOperatorAndFunc(numBer1,numBer2))
 
 #printing results for or operator based on two conditions given by the user
-print("applying or operator",importedPythonFile.logicalOperatorOrFunc(numBer1,numBer2))
+print("applying or operator",logicalOperatorFunctions.logicalOperatorOrFunc(numBer1,numBer2))
 
 #printing results for not operator based on any one condition given by the user
-print("applying not operator",importedPythonFile.logicalOperatorNotFunc(numBer1))
+print("applying not operator",logicalOperatorFunctions.logicalOperatorNotFunc(numBer1))
