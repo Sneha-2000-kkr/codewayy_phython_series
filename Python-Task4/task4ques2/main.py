@@ -63,3 +63,4 @@ print("applying or operator",logicalOperatorFunctions.logicalOperatorOrFunc(numB
 
 #printing results for not operator based on any one condition given by the user
 print("applying not operator",logicalOperatorFunctions.logicalOperatorNotFunc(numBer1))
+
