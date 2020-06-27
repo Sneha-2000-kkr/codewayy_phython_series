@@ -38,7 +38,7 @@ print("Sum of all elements is ",listFunctions.sumOfAllElementsFromListFunc(listF
 stringGiven=str(input("Enter the string"))
 
 #printing length of the string
-print("length of string ",StringFuntions.lengthOfString(stringGiven))
+print("length of string ",stringFuntions.lengthOfString(stringGiven))
 
 #printing middle character of the string
 print("Middle character of the string is ",stringFunctions.middleCharacterOfString(stringGiven))
