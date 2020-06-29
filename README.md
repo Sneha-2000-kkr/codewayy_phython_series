@@ -56,3 +56,13 @@ character of a string, count the number of vowels in a string, calculate
 the length of the string, calculate the number of words in a string.
 - A python file which should show the use of all logical operators of
 python as different function definitions.
+
+
+### Task 5:
+1. Write a program in Python which makes use of the Python error handling,
+your program should include try, catch, raise keyword.
+2. Write a program in Python which makes use of the different match
+functions(min 3) and the sort function for list, tuples, sets etc.
+3. Write a program in Python to read a text file and print it’s content.
+4. Write a program in Python which should take a string of 3-4 lines and write
+it to a txt file.
