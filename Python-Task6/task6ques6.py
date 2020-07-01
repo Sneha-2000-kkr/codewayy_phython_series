@@ -1,3 +1,4 @@
+# Defining function for perfect number
 def findType(numberGiven):
     divisorList=[]
     for i in range(1,numberGiven):
@@ -10,6 +11,8 @@ def findType(numberGiven):
     elif(sum(divisorList)>numberGiven):
         return 1
 
+    
+# Taking input from the user and displaying accordingly 
 numberGiven=int(input("Enter a number"))
 if(findType(numberGiven)==0):
     print("Perfect")
