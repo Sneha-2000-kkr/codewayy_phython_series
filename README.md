@@ -107,3 +107,14 @@ This method checks whether the marks is greater than or equal to 90 and if it is
 greater than or equal to 90, the method returns True.
 If the marks is less than 90, a custom Exception named **NotEligibleException** is
 raised and an appropriate message as shown in the sample output is displayed.
+
+
+### Task 7:
+1. Write a program using Python class and objects which should have 5 different functions
+and should create the 5 different instances of that class and print the details of all the
+instances. The function details are given below:
+- To display the full name
+- To display the college and branch
+- Display the total marks
+- Total percentage of marks
+- And calculate the grade
