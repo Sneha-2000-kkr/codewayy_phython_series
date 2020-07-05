@@ -2,92 +2,89 @@
 
 class studentInfo:
 
-    # method within class defined for displaying student's full name
-    
-    def fullName(self,firstName,secondName):
-        self.nameGiven= firstName + " " + secondName
-        print(self.nameGiven)
-  
-  
-    # method within class defined for displaying student's college details
-    
-    def collegeDetail(self,collegeName,branchEnrolledIn):
+    # constructor for initializing the variables
+    def __init__(self,firstName,secondName,collegeName,branchEnrolledIn,numberOfSubj,eachSubjTotalMark):
+        self.firstName=firstName
+        self.secondName=secondName
         self.collegeName=collegeName
         self.branchEnrolledIn=branchEnrolledIn
-        print(self.collegeName,self.branchEnrolledIn)
+        self.numberOfSubj=numberOfSubj
+        self.eachSubjTotalMark=eachSubjTotalMark
 
 
-    # method within class defined for displaying student's marks scored 
-    
-    def totalMarks(self,numberOfSubj):
-        self.markList=[]
+    # method within class defined for displaying student's full name
+
+    def fullName(self):
+        self.nameGiven = self.firstName + " " + self.secondName
+        print(self.nameGiven)
+
+    # method within class defined for displaying student's college details
+
+    def collegeDetail(self):
+        print(self.collegeName, self.branchEnrolledIn)
+
+    # method within class defined for displaying student's marks scored
+
+    def totalMarks(self):
+        self.markList = []
         print("Enter the marks:")
-        for i in range(numberOfSubj):
-            markOfSubj=int(input())
+        for i in range(self.numberOfSubj):
+            markOfSubj = int(input())
             self.markList.append(markOfSubj)
-        print(sum(self.markList))
-        return(sum(self.markList))
-
+        print("Total markes scored :",sum(self.markList))
+        return (sum(self.markList))
 
     # method within class defined for displaying student's percentage scored
-    
-    def percentageScored(self,sumOfMarks,numberOfSubj,eachSubjTotalMark):
-        self.totalMark=numberOfSubj*eachSubjTotalMark
-        self.sumOfMarks=sumOfMarks
-        self.percentScored=float((self.sumOfMarks/self.totalMark)*100)
-        print(self.percentScored)
-        return(self.percentScored)
 
+    def percentageScored(self, sumOfMarks):
+        self.totalMark = self.numberOfSubj * self.eachSubjTotalMark
+        self.sumOfMarks = sumOfMarks
+        self.percentScored = float((self.sumOfMarks / self.totalMark) * 100)
+        print("Percentage Scored:",self.percentScored)
+        return (self.percentScored)
 
     # method within class defined for displaying student's grade
-    
-    def gradeAwarded(self,percentScored):
-        if(int(percentScored)>90):
-            print("A")
-        elif (int(percentScored) > 80 and int(percentScored)< 89):
-            print("B")
-        elif (int(percentScored) > 70 and int(percentScored)< 79):
-            print("C")
-        elif(int(percentScored)>39 and int(percentScored)<69):
-             print("D")
-        elif (int(percentScored) < 40):
-            print("FAILED")
+
+    def gradeAwarded(self, percentScored):
+        if (int(percentScored) >= 90):
+            print("Grade awarded is A\n\n")
+        elif (int(percentScored) >= 80 and int(percentScored) <= 89):
+            print("Grade awarded is B\n\n")
+        elif (int(percentScored) >= 70 and int(percentScored) <= 79):
+            print("Grade awarded is C\n\n")
+        elif (int(percentScored) >= 39 and int(percentScored) <= 69):
+            print("Grade awarded is D\n\n")
+        elif (int(percentScored) <= 40):
+            print("Sorry!! YOU FAILED\n\n")
 
 
 # list of objects of class
-studentObject=[]
-
-#creating objects
+studentObject = []
+studentNo=1
+# creating objects and taking required informations from the user and invoking desired methods in the class
 for i in range(5):
-    studentObject.append(studentInfo())
-    
-# taking required informations from the user and invoking desired methods in the class    
-for i in studentObject:
-
-    print("\n\nEnter details of student")
-    
+    print("Details of student ",studentNo)
     print("Enter first and second name of student")
-    firstName=str(input())
-    secondName=str(input())
-    i.fullName(firstName,secondName)
-    
-    
+    firstName = str(input())
+    secondName = str(input())
     print("Enter college name and branch")
-    collageName=str(input())
-    branchEnrolled=str(input())
-    i.collegeDetail(collageName,branchEnrolled)
-    
-    
+    collageName = str(input())
+    branchEnrolled = str(input())
     print("Enter number of Subjects")
-    numberOfSubj=int(input())
-    sumMarks=i.totalMarks(numberOfSubj)
-    
-    
+    numberOfSubj = int(input())
     print("Max marks in each subj")
-    eachSubjTotalMark=int(input())
-    
-    
-    percentScored=i.percentageScored(sumMarks, numberOfSubj, eachSubjTotalMark)
+    eachSubjTotalMark = int(input())
+    studentObject.append(studentInfo(firstName,secondName,collageName, branchEnrolled,numberOfSubj,eachSubjTotalMark))
+    studentNo+=1
+
+# invoking the methods
+for i in studentObject:
+    i.fullName()
+    i.collegeDetail()
+    totalMarks=i.totalMarks()
+    percentScored=i.percentageScored(totalMarks)
     i.gradeAwarded(percentScored)
+
+
 
 
